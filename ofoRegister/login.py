@@ -175,5 +175,5 @@ class Login:
                 self.browser.quit()
 
 if __name__ == '__main__':
-    l = Login()
+    l = Register()
     l.start()
