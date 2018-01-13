@@ -11,7 +11,7 @@ from selenium.webdriver import ActionChains
 
 
 
-class Login:
+class Register:
     def __init__(self):
         self.rc = RClient('若快账号', '若快密码', '94468', '0a5cda058154411280029dc311a84011')
         options = webdriver.ChromeOptions()
