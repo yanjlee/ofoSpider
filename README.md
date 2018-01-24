@@ -45,3 +45,15 @@ python3 run.py
 输出格式：CSV
 
 每行格式：时间戳，单车编号，经度，纬度
+
+## 关于token
+```
+很多人来问我token的取法，问得人多了，我就认识到了写好文档的重要性：sweat：
+token是发出获取附近单车请求的必要字段，保存在ofo账号登录后cookie，
+具体获取方法如下所示
+```
+* 使用chrome浏览器访问https://common.ofo.so/newdist/?Login&~next=%22%3FJourney%22
+* 输入你的账号验证码成功登陆后（强烈建议使用没有押金的小号，被封后果自负）
+* 点击地址栏左边“安全”查看当前网站cookie信息
+* 然后我们就可以在ofo.so域下发现我们当前账号的token
+
